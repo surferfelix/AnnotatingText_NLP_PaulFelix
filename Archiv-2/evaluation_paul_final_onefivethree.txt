@@ -1,0 +1,25 @@
+gold	:[['neutral', 176], ['positive', 23], ['negative', 119]]
+pred	:[['neutral', 119], ['positive', 34], ['negative', 165]]
+
+input:inout/output_paul_final.csv
+
+accuracy_score:0.5786163522012578
+
+classification report:
+              precision    recall  f1-score   support
+
+    negative       0.53      0.73      0.61       119
+     neutral       0.71      0.48      0.58       176
+    positive       0.35      0.52      0.42        23
+
+    accuracy                           0.58       318
+   macro avg       0.53      0.58      0.54       318
+weighted avg       0.62      0.58      0.58       318
+
+
+confusion matrix:
+
+[[87 28  4]
+ [73 85 18]
+ [ 5  6 12]]
+row is gold  /	column is predicted
